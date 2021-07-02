@@ -24,6 +24,7 @@ body {
 
 .relative {
   position: relative;
+
 }
 
 .relative__img {
@@ -38,12 +39,11 @@ body {
 .absolute {
   position: absolute;
   font-size: 50px;
-  top: 150px;
-  font-weight: lighter;
+  bottom: 50px;
   
 }
 
-.border {
+.back {
   position: absolute;
   top: 260px;
   background-color: #333399;
