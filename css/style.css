@@ -29,24 +29,22 @@ body {
 
 .relative__img {
   width: 50%;
-  margin: 150px 0 0 auto;
+  margin: 200px 0 0 auto;
   height: 100%;
   display: block;
   position: relative;
-  z-index: 3;
 }
 
 .absolute {
   position: absolute;
   font-size: 50px;
-  bottom: 50px;
-  
+  bottom: 100px;
 }
 
 .back {
   position: absolute;
-  top: 260px;
+  top: 350px;
   background-color: #333399;
   height: 200px;
-  width: 750px;
+  width: 70%;
 }
