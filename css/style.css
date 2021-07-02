@@ -23,20 +23,30 @@ body {
 
 
 .relative {
-    position: relative;
-    display: flex;
+  position: relative;
 }
 
 .relative__img {
-   position: absolute;
-    width: 600px;
-    height: 400px;
-    top: 150px;
-    left: 600px;
+  width: 50%;
+  margin: 150px 0 0 auto;
+  height: 100%;
+  display: block;
+  position: relative;
+  z-index: 3;
 }
 
 .absolute {
   position: absolute;
   font-size: 50px;
+  top: 150px;
+  font-weight: lighter;
   
+}
+
+.border {
+  position: absolute;
+  top: 260px;
+  background-color: #333399;
+  height: 200px;
+  width: 750px;
 }
