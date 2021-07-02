@@ -29,10 +29,11 @@ body {
 
 .relative__img {
   width: 50%;
-  margin: 200px 0 0 auto;
+  margin: 150px 0 0 auto;
   height: 100%;
   display: block;
   position: relative;
+  z-index: 3;
 }
 
 .absolute {
@@ -43,7 +44,7 @@ body {
 
 .back {
   position: absolute;
-  top: 350px;
+  bottom: -100px;
   background-color: #333399;
   height: 200px;
   width: 70%;
